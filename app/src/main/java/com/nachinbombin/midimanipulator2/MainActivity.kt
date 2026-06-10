@@ -36,6 +36,9 @@ class MainActivity : ComponentActivity() {
                 composable("routing") {
                     MidiRoutingWindow(routeManager) { navController.popBackStack() }
                 }
+                composable("gamepad") {
+                    GamepadMappingWindow { navController.popBackStack() }
+                }
             }
 
             if (showThemePicker) {
