@@ -79,6 +79,9 @@ fun PerformanceWindow(
             MidiJoystick(label = "Melodic", sectors = 7)
             MidiJoystick(label = "Harmonic", sectors = 12)
         }
+
+        StrumSection()
+        PerformanceWheels()
     }
 }
 
